@@ -150,18 +150,4 @@ class Account:
         print("Account has been closed and all data reset.")
 
 
-account1=Account("Queen",2345)
-account2=Account("Beauty",234)
-
-print(account1.deposit(500))
-print(account1.withdraw(100))
-print(account1.transfer(50,account2))
-print(account1.get_loan(100))
-print(account1.account_statement())
-print(account1.repay_loan(50))
-print(account1.account_details())
-print(account1.change_account_owner("Carine"))
-print(account1.interest())
-print(account1.get_transactions())
-print(account2.get_transactions())
 
